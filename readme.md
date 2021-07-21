@@ -2,34 +2,6 @@
 
 This challenge is designed to assess the JavaScript skills you have gained so far.
 
-## Learning Objectives Assessed
-
-The following learning objectives will be assessed in this assessment:
-
-- Create and assign values to variables.
-- Use arithmetic operators to build simple mathematical equations.
-- Represent logical assertions using `===`, `&&`, `||`, and `!`.
-- Conditionally run code based on values and expressions.
-- Create functions with parameters using the function declaration syntax.
-- Return values from functions.
-- Interpret JSDoc function comments.
-- Interpret test output in order to take actionable steps in code.
-- Access elements in an array through bracket notation.
-- Access values in an object through bracket and dot notation.
-- Update values in an object with bracket and dot notation.
-- Differentiate between arrays and objects.
-- Write a `for` loop with a variable number of iterations.
-- Write `for...of` loops to iterate over arrays.
-- Use the command line to navigate via absolute and relative paths.
-- Install and use the `code` command to open VSCode.
-- Stage files with `git add`.
-- Commit files with a sensible commit message using `git commit -m`.
-- Fork and clone a repository.
-- Create a pull request using a forked repository.
-- Run JavaScript files with the `node` command.
-- Apply the accumulator pattern to problems that return strings, numbers, or booleans.
-- Apply the accumulator pattern to problems that return arrays.
-
 ## Instructions
 
 You will need to write four functions that require you to make use of loops, conditionals, logic, and the accumulator pattern.
@@ -163,3 +135,31 @@ getMostCommonAnimal(animals, 5);
 //>   { kind: "Chicken", count: 11 },
 //> ];
 ```
+
+## Learning Objectives Assessed
+
+The following learning objectives will be assessed in this assessment:
+
+- Create and assign values to variables.
+- Use arithmetic operators to build simple mathematical equations.
+- Represent logical assertions using `===`, `&&`, `||`, and `!`.
+- Conditionally run code based on values and expressions.
+- Create functions with parameters using the function declaration syntax.
+- Return values from functions.
+- Interpret JSDoc function comments.
+- Interpret test output in order to take actionable steps in code.
+- Access elements in an array through bracket notation.
+- Access values in an object through bracket and dot notation.
+- Update values in an object with bracket and dot notation.
+- Differentiate between arrays and objects.
+- Write a `for` loop with a variable number of iterations.
+- Write `for...of` loops to iterate over arrays.
+- Use the command line to navigate via absolute and relative paths.
+- Install and use the `code` command to open VSCode.
+- Stage files with `git add`.
+- Commit files with a sensible commit message using `git commit -m`.
+- Fork and clone a repository.
+- Create a pull request using a forked repository.
+- Run JavaScript files with the `node` command.
+- Apply the accumulator pattern to problems that return strings, numbers, or booleans.
+- Apply the accumulator pattern to problems that return arrays.
