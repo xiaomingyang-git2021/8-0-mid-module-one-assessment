@@ -24,6 +24,7 @@ const animals = [
  * EXAMPLE
  * ------------------
  * getTotalCount(animals); //> 28
+ * getTotalCount([]); //> 0 // returns 0 if the input array is empty
  */
 function getTotalCount(animals) {}
 
@@ -37,6 +38,7 @@ function getTotalCount(animals) {}
  * EXAMPLE
  * ------------------
  * getAllKinds(animals); //> ["Pig", "Cow", "Chicken", "Horse", "Dog", "Cat"]
+ * getAllKinds([]); //> [] // returns empty array if input array is empty
  */
 function getAllKinds(animals) {}
 
@@ -51,6 +53,7 @@ function getAllKinds(animals) {}
  * EXAMPLE
  * ------------------
  * filterByCountMinimum(animals, 5); //> ["Pig", "Cow", "Chicken"]
+ * filterByCountMinimum([], 3); //> [] // returns empty array if input array is empty
  */
 function filterByCountMinimum(animals, minimum) {}
 
@@ -64,6 +67,7 @@ function filterByCountMinimum(animals, minimum) {}
  * EXAMPLE
  * ------------------
  * getMostCommonAnimal(animals); //> { kind: "Chicken", count: 11 }
+ * getMostCommonAnimal([]); //> null // returns null if the input is empty
  */
 function getMostCommonAnimal(animals) {}
 
