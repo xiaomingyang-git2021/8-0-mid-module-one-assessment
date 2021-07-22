@@ -52,7 +52,11 @@ function getAllKinds(animals) {}
  *
  * EXAMPLE
  * ------------------
- * filterByCountMinimum(animals, 5); //> ["Pig", "Cow", "Chicken"]
+ * filterByCountMinimum(animals, 5); //> [
+    { kind: "Pig", count: 5 },
+    { kind: "Cow", count: 7 },
+    { kind: "Chicken", count: 11 },
+  ];
  * filterByCountMinimum([], 3); //> [] // returns empty array if input array is empty
  */
 function filterByCountMinimum(animals, minimum) {}
