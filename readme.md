@@ -10,6 +10,8 @@ After writing each function so that the tests pass, _please add your changes and
 
 To complete each function, follow the examples below, the tests, and the JSDoc comments.
 
+Please note that you should use the accumulator pattern for _all of these problems._ You should not use strategies that have not been taught in this class.
+
 ### Getting started
 
 1. Fork and clone this repository.
