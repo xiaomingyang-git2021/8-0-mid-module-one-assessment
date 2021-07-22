@@ -128,4 +128,12 @@ describe("getMostCommonAnimal()", () => {
     const expected = null;
     expect(actual).toEqual(expected);
   });
+
+  test("does not use the .sort() method", () => {
+    const str = getMostCommonAnimal.toString();
+    // Function should have student written code in it.
+    expect(str.length).toBeGreaterThan(40);
+    // Function should not use the .sort() method.
+    expect(str).not.toContain(".sort");
+  });
 });
