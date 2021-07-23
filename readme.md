@@ -125,7 +125,7 @@ filterByCountMinimum(animals, 5);
 
 This function should return a single object. The object returned will be the object where the `count` is the highest of all other objects in the inputted array.
 
-If there are multiple animals with the same highest count, return the one that returns earliest in the array. If the inputted array is empty, it should return an empty array.
+If there are multiple animals with the same highest count, return the one that appears earliest in the array. If the inputted array is empty, it should return an empty array.
 
 #### Example
 
